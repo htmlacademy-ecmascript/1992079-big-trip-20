@@ -15,7 +15,7 @@ const pointsModel = new PointsModel();
 render(new FilterView, filtersElement);
 render(new SortView, eventsElement);
 render(new CreateFormView, eventsElement);
-render(new EditFormView, eventsElement);
+render(new EditFormView(pointsModel.getPoints()[0]), eventsElement);
 for (let i = 0; i < POINTS_COUNT; i++) {
   render(new PointView(pointsModel.getPoints()[i]), eventsElement);
 }

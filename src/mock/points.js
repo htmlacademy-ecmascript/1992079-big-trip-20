@@ -23,7 +23,7 @@ const destinations = [
   },
   {
     id: 1,
-    cityName: 'Rome',
+    cityName: 'Geneva',
     imageUrl: '../../img/photos/4.jpg'
   }
 ];
