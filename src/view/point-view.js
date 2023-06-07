@@ -21,9 +21,9 @@ const createPointTemplate = (props) =>
   <h4 class="visually-hidden">Offers:</h4>
   <ul class="event__selected-offers">
     <li class="event__offer">
-      <span class="event__offer-title">Order Uber</span>
+      <span class="event__offer-title">${props.offers.description}</span>
       &plus;&euro;&nbsp;
-      <span class="event__offer-price">20</span>
+      <span class="event__offer-price">${props.offers.cost}</span>
     </li>
   </ul>
   <button class="event__favorite-btn event__favorite-btn--active" type="button">
